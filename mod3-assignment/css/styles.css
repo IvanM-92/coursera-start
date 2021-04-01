@@ -1,0 +1,122 @@
+/** HEADER **/
+#header-nav {
+  padding-left: 0px;
+  margin-left: 0px;
+  background-color: #4344da;
+  border-radius: 0;
+  border: 0;
+}
+
+#upper{
+
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-size:1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -10px;
+  line-height: .75;
+  color: #fff;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-nav{
+  margin: 1px -15px 0px -15px;
+}
+
+
+#nav-list a {
+  color: black;
+  background: #93e1ff;
+  text-align: center;
+  border: 1px;
+
+}
+#nav-list a:hover {
+  background: #da5d5dab;
+  color:white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+  margin-top: 50px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  vertical-align: middle; 
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+/* END HEADER */
+
+#main-content{
+  font-family: 'PennaRegular';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 1.75em;
+}
+
+
+.item{
+  border: 2px solid black;
+  position:relative;
+  background-color: #eccbb040;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom:15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1em;
+  padding: 0px 20px 0px 20px;
+}
+
+#beef{
+  background-color:#C14543;
+  color: #fff;
+}
+#sushi{
+  background-color:#E5D198;
+}
+#chicken{
+  background-color:#D59898;
+}
+.container{
+  margin:0;
+  width:auto;
+  position: relative;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+#nav-list{
+  display: none;          
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+#nav-list{
+  display: none;          
+}
+}
+
+
